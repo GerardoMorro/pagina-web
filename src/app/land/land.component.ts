@@ -73,7 +73,7 @@ export class LandComponent implements OnInit {
     },
     {
       title: "Accidentes Personales",
-      desc: "Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus",
+      desc: "El seguro de accidentes personales esta destinado a cubrir los eventos dañosos derivados de accidentes en ocasión de trabajo para aquellos empleados temporales o cuntapropistas que no encuadren dentro del régimen de a.r.t",
       reverse: false,
       color: "#005cb3",
       img: "assets/quad0.jpeg",
