@@ -1,0 +1,79 @@
+<div class="background-container">
+  <div class="container">
+    <div class="text-container">
+      <h1>Abalse Maria Teresa SRL</h1>
+      <p>
+        Con más de 40 años de trayectoria en el mercado, ofreciendo servicios
+        como productora de seguros, contamos con una organización ágil y
+        dinámica, brindando a nuestros clientes respaldo, seriedad y eficiencia.
+        <br />
+        <br />
+
+        Trabajamos con las más prestigiosas compañías de seguros del mercado,
+        otorgando transparencia a través del asesoramiento profesional más serio
+        y comprometido.
+        <br />
+        <br />
+
+        Brindamos soluciones a medida, en la administración tanto de sus riesgos
+        patrimoniales como de los personales.
+        <br />
+        <br />
+
+        Buscamos la excelencia y la más alta calidad en los servicios
+        relacionados con la asesoría, logrando así una atención acorde con las
+        exigencias y necesidades de cada cliente.
+      </p>
+    </div>
+  </div>
+  <app-merger
+    [data]="{
+      direction: 'left',
+      color1: 'rgba(46,49,45,0)',
+      color2: '#77f'
+    }"
+  ></app-merger>
+</div>
+<app-diapo [data]="slides[0]"></app-diapo>
+<app-diapo [data]="slides[1]"></app-diapo>
+<app-diapo [data]="slides[2]"></app-diapo>
+<app-diapo [data]="slides[3]"></app-diapo>
+<app-diapo [data]="slides[4]"></app-diapo>
+<div class="companias-section">
+  <div class="companias-container">
+    <h1>Compañías con las que operamos</h1>
+    <div class="img-container">
+      <a target="_blank" href="https://www.fedpat.com.ar">
+        <img
+          alt="compania"
+          src="/assets/companias/federacion-patronal-seguros-sa.png"
+        />
+      </a>
+
+      <a target="_blank" href="https://www.prevencionart.com.ar"
+        ><img alt="compania" src="/assets/companias/logo_prevencion_art.png"
+      /></a>
+
+      <a target="_blank" href="https://www.sancristobal.com.ar"
+        ><img
+          alt="compania"
+          src="/assets/companias/logo-san-cristobal-seguros.jpg"
+      /></a>
+
+      <a target="_blank" href="https://www.sancorseguros.com.ar"
+        ><img alt="compania" src="/assets/companias/Sancor-Seguros-Logo.jpg"
+      /></a>
+
+      <a target="_blank" href="https://segurosrivadavia.com"
+        ><img
+          alt="compania"
+          src="/assets/companias/seguros-rivadavia-800x600.png"
+      /></a>
+    </div>
+  </div>
+</div>
+<app-merger
+  [data]="{ direction: 'left', color1: '#454e7f', color2: '#2e3141' }"
+></app-merger>
+
+<app-footer></app-footer>

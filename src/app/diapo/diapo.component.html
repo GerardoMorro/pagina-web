@@ -1,0 +1,13 @@
+<div [style.background-color]="data.color" class="container">
+  <!--<div [class]="this.data.reverse ? reverseClass : infoClass">-->
+  <div [class]="direction">
+    <div class="text-container">
+      <h2>{{ data.title }}</h2>
+      <p [innerHTML]="data.desc"></p>
+    </div>
+    <div class="img-container">
+      <img [src]="data.img" />
+    </div>
+  </div>
+</div>
+<app-merger [data]="data.merger"></app-merger>

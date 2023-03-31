@@ -1,0 +1,18 @@
+<div class="nav">
+  <!--<i (click)="toggle(navbar)" class="fa-solid fa-bars btn"></i>-->
+  <fa-icon (click)="toggle(navbar)" class="btn" [icon]="faBars"></fa-icon>
+</div>
+
+<nav #navbar class="navbar activo" (click)="toggle(navbar)">
+  <ul class="list">
+    <li class="list-item">
+      <a routerLink="/home" routerLinkActive="active" class="link">Uno</a>
+    </li>
+    <li class="list-item">
+      <a routerLink="/galery" routerLinkActive="active" class="link">Dos</a>
+    </li>
+    <li class="list-item">
+      <a routerLink="/options" routerLinkActive="active">Tres</a>
+    </li>
+  </ul>
+</nav>

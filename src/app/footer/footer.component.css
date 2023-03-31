@@ -1,0 +1,101 @@
+footer {
+  /*border-style: solid;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease,
+    -moz-filter 0.25s ease;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease,
+    -webkit-filter 0.25s ease;
+  -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease,
+    -ms-filter 0.25s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -moz-transition-delay: 0.65s;
+  -webkit-transition-delay: 0.65s;
+  -ms-transition-delay: 0.65s;
+  transition-delay: 0.65s;
+  -moz-filter: blur(0);
+  -webkit-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+  opacity: 1;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  font-size: 2.25em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+}
+
+.details {
+  /*border-style: solid;*/
+  /*border-color: red;*/
+  width: 60%;
+}
+
+.contact-info {
+  /*border-style: solid;*/
+  /*border-color: yellow;*/
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.field {
+  /*border-style: solid;*/
+  /*border-color: green;*/
+  display: flex;
+  align-items: center;
+  /*margin-left: 30%;*/
+  width: 60%;
+  margin-bottom: 1%;
+}
+
+.icon {
+  border: solid 2px white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.description {
+  /*border-style: solid;*/
+  margin-left: 5%;
+  /*margin-bottom: 10%;*/
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-color: #2e3141 #2e3141 #fff #2e3141;
+  border-style: dotted;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  color: #888;
+  border-bottom-color: #888;
+}
+
+@media (orientation: portrait) {
+  .icon {
+    font-size: 1.1em;
+  }
+  .field {
+    width: 100%;
+  }
+}
