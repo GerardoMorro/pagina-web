@@ -37,7 +37,7 @@ export class LandComponent implements OnInit {
     },
     {
       title: "Hogar",
-      desc: "Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus",
+      desc: "Es aquél que resguarda las viviendas permanentes y su contenido contra diversos riesgos. También puede cubrir los daños a cosas o lesiones a terceros. Se llama Combinado Familiar porque en una sola póliza se cubren distintas combinaciones de riesgos, sobre la base de la cobertura de Incendio con dos riesgos más como mínimo, con Optativos y Adicionales, de acuerdo a las diversas coberturas.",
       reverse: true,
       color: "#02296a",
       img: "assets/quad3.jpeg",
